@@ -12,6 +12,16 @@ public class DemoService {
     @Value("another 属性")
     private String another;
 
+    public String getContext() {
+        return context;
+    }
+
+    public void setContext(String context) {
+        this.context = context;
+    }
+
+    private String context;
+
     public String getAnother() {
         return another;
     }
